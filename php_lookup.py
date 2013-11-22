@@ -1,7 +1,7 @@
 import sublime, sublime_plugin
 import webbrowser
 
-class PhpDocLookupCommand(sublime_plugin.TextCommand):
+class PhpLookupCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         sels = self.view.sel()
         for sel in sels:
